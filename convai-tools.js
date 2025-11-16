@@ -44,7 +44,7 @@ function injectElevenLabsWidget() {
   const widget = document.createElement('elevenlabs-convai');
   widget.id = ID;
   widget.setAttribute('agent-id', AGENT_ID);
-  widget.setAttribute('variant', 'full');
+  widget.setAttribute('variant', 'compact');
 
   // Listen for the widget's "call" event to inject client tools
   widget.addEventListener('elevenlabs-convai:call', (event) => {
