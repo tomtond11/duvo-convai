@@ -9,7 +9,7 @@
 const AGENT_ID = 'agent_2101ka69vq27e75ty69k4b7vsxmx';
 
 // OPTIONAL: Change navigation behavior
-const OPEN_IN_NEW_TAB = false; // true = new tab, false = same tab
+const OPEN_IN_NEW_TAB = true; // true = new tab, false = same tab
 
 // OPTIONAL: Change widget position
 const WIDGET_POSITION = 'bottom-right'; // 'bottom-right', 'bottom-left', 'top-right', 'top-left'
